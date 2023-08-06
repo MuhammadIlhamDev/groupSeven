@@ -1,0 +1,178 @@
+  code original
+  
+   <nav class="flex justify-evenly p-8">
+        <!-- link -->
+        <ul class="flex gap-12 items-center font-medium">
+          <!-- Logo -->
+          <div class="mx-6">
+            <h3 class="text-2xl font-bold cursor-pointer flex">
+              Fintech
+              <span class="relative">
+                <span
+                  class="absolute bottom-[6px] left-[2px] animate-pulse rounded-full h-2 w-2 bg-red-500"
+                ></span>
+              </span>
+            </h3>
+          </div>
+          <li class="hover:underline underline-offset-4">
+            <a href="#">Platform</a>
+          </li>
+          <li class="hover:underline underline-offset-4">
+            <a href="#">Company</a>
+          </li>
+          <li class="hover:underline underline-offset-4">
+            <a href="#">Industries</a>
+          </li>
+          <li class="hover:underline underline-offset-4">
+            <a href="#">Resources</a>
+          </li>
+        </ul>
+        <!-- button -->
+        <div class="flex items-center gap-6">
+          <div
+            class="bg-white hover:bg-gray-200 border border-black p-1.5 px-6 rounded-full"
+          >
+            <button class="font-medium">SIGN IN</button>
+          </div>
+          <div
+            class="p-1.5 px-6 border border-black rounded-full bg-slate-800 hover:bg-slate-950"
+          >
+            <button class="text-white font-medium">SIGN UP</button>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+      code2
+
+
+          <nav class="flex md:justify-evenly justify-between p-8">
+      <!-- link -->
+      <ul class="hidden md:flex gap-12 items-center font-medium" id="menuItems">
+        <!-- Logo -->
+        <div class="mx-6">
+          <h3 class="text-2xl font-bold cursor-pointer flex">
+            Fintech
+            <span class="relative">
+              <span
+                class="absolute bottom-[6px] left-[2px] animate-pulse rounded-full h-2 w-2 bg-red-500"
+              ></span>
+            </span>
+          </h3>
+        </div>
+        <li class="hover:underline underline-offset-4">
+          <a href="#">Platform</a>
+        </li>
+        <li class="hover:underline underline-offset-4">
+          <a href="#">Company</a>
+        </li>
+        <li class="hover:underline underline-offset-4">
+          <a href="#">Industries</a>
+        </li>
+        <li class="hover:underline underline-offset-4">
+          <a href="#">Resources</a>
+        </li>
+      </ul>
+      <!-- button -->
+      <div class="flex items-center gap-6 mt-4 md:mt-0" id="navButtons">
+        <div
+          class="bg-white hover:bg-gray-200 border border-black p-1.5 px-6 rounded-full"
+        >
+          <button class="font-medium">SIGN IN</button>
+        </div>
+        <div
+          class="p-1.5 px-6 border border-black rounded-full bg-slate-800 hover:bg-slate-950"
+        >
+          <button class="text-white font-medium">SIGN UP</button>
+        </div>
+      </div>
+      <!-- hamburger menu button -->
+      <button id="hamburgerButton" class="md:hidden">
+        <svg
+          class="w-8 h-8"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M4 6h16M4 12h16m-7 6h7"
+          ></path>
+        </svg>
+      </button>
+    </nav>
+
+    code3
+
+      <nav class="flex justify-evenly p-8 items-center">
+      <!-- link -->
+      <div class="flex gap-12 items-center font-medium">
+        <!-- Hamburger menu button -->
+        <button id="hamburgerButton" class="md:hidden">
+          <svg
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+        <!-- Logo -->
+        <div class="mx-6">
+          <h3 class="text-2xl font-bold cursor-pointer flex">
+            Fintech
+            <span class="relative">
+              <span
+                class="absolute bottom-[6px] left-[2px] animate-pulse rounded-full h-2 w-2 bg-red-500"
+              ></span>
+            </span>
+          </h3>
+        </div>
+        <!-- Navigation links -->
+        <ul class="hidden md:flex gap-12 items-center">
+          <li class="hover:underline underline-offset-4">
+            <a href="#">Platform</a>
+          </li>
+          <li class="hover:underline underline-offset-4">
+            <a href="#">Company</a>
+          </li>
+          <li class="hover:underline underline-offset-4">
+            <a href="#">Industries</a>
+          </li>
+          <li class="hover:underline underline-offset-4">
+            <a href="#">Resources</a>
+          </li>
+        </ul>
+      </div>
+      <!-- button -->
+      <div class="flex items-center gap-6 mt-2 md:mt-0" id="navButtons">
+        <div
+          class="bg-white hover:bg-gray-200 border border-black p-1.5 px-6 rounded-full"
+        >
+          <button class="font-medium">SIGN IN</button>
+        </div>
+        <div
+          class="p-1.5 px-6 border border-black rounded-full bg-slate-800 hover:bg-slate-950"
+        >
+          <button class="text-white font-medium">SIGN UP</button>
+        </div>
+      </div>
+    </nav>
